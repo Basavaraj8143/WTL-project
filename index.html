@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FINTECH | NEO-LEDGER X</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+</head>
+<div class="scroll-up-btn">
+    <i class="bx bx-up-arrow-alt bx-sm"></i>
+</div>
+<div class="showcase">
+    <!-- navbar top section -->
+
+    <div class="navbar-top">
+        <ul class="left">
+            <li><a href="#"><i class="bx bxs-time bx-xs"></i> Monday - Friday : 8:00 - 7:00</a></li>
+            <li><a href="#"><i class="bx bxs-map bx-xs"></i> KLEIT Hubli</a></li>
+            <li><a href="#"><i class="bx bxs-phone bx-xs"></i> +91-99861-92797</a></li>
+        </ul>
+    </div>
+
+    <!-- navbar bottom section -->
+    <div class="navbar-bottom">
+        <a href="#home" class="brand-left">FINTECH</a>
+        <ul class="menu-right">
+            <li><a href="#home">Home</a></li>
+            <li><a href="/accounts">Account</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="/login">Logout</a></li>
+        </ul>
+        <div class="search-form">
+            <input type="search" name="search-box" id="search-box" placeholder="search here...">
+            <label for="search-box" class="bx bx-search bx-sm"></label>
+        </div>
+    </div>
+
+    <div class="showcase-content">
+        <h1>We Deliver Digital <br> Strategy <span>& Analytics</span></h1>
+        <p>We are boutique firm designed for Private Equity, Family Offices<br> and Growth Stage Companies seeking
+            to maximize results</p>
+        <a href="https://www.youtube.com/watch?v=_-gso8hoXD0" class="btn btn-right">User guide</a>
+
+    </div>
+</div>
+
+<section id="services" class="bg-light py-3">
+    <div class="wrapper">
+        <div class="items">
+            <div class="item">
+                <i class="bx bxs-building-house bx-lg"></i>
+                <h3>Government Scheme</h3>
+                <p>Easy access to latest bank and welfare schemes by the Government of India.</p>
+                <a href="https://www.myscheme.gov.in/" target="_blank" aria-label="myscheme">MyScheme Portal</a>
+            </div>
+            <div class="item">
+                <i class="bx bxs-credit-card-front bx-lg"></i>
+                <h3>Customer helpline</h3>
+                <p>Get safe banking support and guidance with help from RBI..</p>
+                <a href="https://www.rbi.org.in/" target="_blank" aria-label="rbi">RBI Portal</a>
+            </div>
+            <div class="item">
+                <i class="bx bxs-plane-alt bx-lg"></i>
+                <h3>Online transactions</h3>
+                <p>Send and receive money worldwide, quickly and securely.</p>
+                <a href="/pay" target="_blank" aria-label="payment">Make transactions</a>
+            </div>
+        </div>
+        <div id="goal" class="goal">
+            <div class="goal-img">
+                <img src="{{ url_for('static', filename='image/krish.jpg') }}">
+            </div>
+            <div class="goal-text">
+                <a href="#">Our Priorities</a>
+                <h2>Investment Banking & <br> Capital Market</h2>
+                <div class="contents">
+                    <div class="content p-4">
+                        <i class="bx bx-check bx-sm"></i>
+                    </div>
+                    <div class="content p-4">
+                        <h3>Investment Management</h3>
+                        <p>Strong investor network with sustainable opportunities.</p>
+                    </div>
+                </div>
+                <div class="contents">
+                    <div class="content p-4">
+                        <i class="bx bx-check bx-sm"></i>
+                    </div>
+                    <div class="content p-4">
+                        <h3>Private Credit & Equity</h3>
+                        <p>Failored credit and equity solutions for strategic growth.</p>
+                    </div>
+                </div>
+                <div class="contents">
+                    <div class="content p-4">
+                        <i class="bx bx-check bx-sm"></i>
+                    </div>
+                    <div class="content p-4">
+                        <h3>Business Multi Solutions</h3>
+                        <p>Comprehensive support driving efficiency across sectors.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="portfolio" class="portfolio py-3">
+    <h3 class="text-center">Company Portfolio</h3>
+    <h2 class="text-center">Our Latest <span class="text-secondary">Case Studies</span> </h2>
+    <p class="text-center">We help you see the world differently, discover opportunities you may never have <br>
+        imagined and achieve results that bridge what is with what can be</p>
+    <div class="owl-carousel">
+        <div class="item"><img src="{{ url_for('static', filename='image/Kanha.jpeg') }}"></div>
+    </div>
+</section>
+
+<section id="teams" class="teams bg-light py-3">
+    <h3 class="text-center">We are there for you</h3>
+    <h2 class="text-center">Meet Our <span class="text-secondary">Professional Team</span></h2>
+    <p class="text-center">We help you see the world differently, discover opportunities you may never have <br>
+        imagined and achieve results that bridge what is with what can be</p>
+    <div class="wrapper">
+        <div class="card-items">
+            <div class="card">
+                <div class="card-header">
+                    <img src="{{ url_for('static', filename='image/Radha_rani.jpg') }}">
+                </div>
+                <div class="card-body">
+                    <h3>Radha Rani</h3>
+                    <h4>CEO-Fintech</h4>
+                    <ul>
+                        <li><a href="#"><i class="bx bxl-twitter bx-xs"></i></a></li>
+                        <li><a href="#"><i class="bx bxl-pinterest-alt bx-xs"></i></a></li>
+                        <li><a href="#"><i class="bx bxl-facebook bx-xs"></i></a></li>
+                        <li><a href="https://www.instagram.com/_aryannn.07?igsh=MXBtdGxkamQ4YWJ1Yg=="><i
+                                    class="bx bxl-instagram-alt bx-xs"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <img src="{{ url_for('static', filename='image/krishna.jpg') }}">
+                </div>
+                <div class="card-body">
+                    <h3>Krishna</h3>
+                    <h4>Administrator</h4>
+                    <ul>
+                        <li><a href="#"><i class="bx bxl-twitter bx-xs"></i></a></li>
+                        <li><a href="#"><i class="bx bxl-pinterest-alt bx-xs"></i></a></li>
+                        <li><a href="#"><i class="bx bxl-facebook bx-xs"></i></a></li>
+                        <li><a href="https://www.instagram.com/channveer.a.h?igsh=ZGF2dWF4dHk4bDlz"><i
+                                    class="bx bxl-instagram-alt bx-xs"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact bg-secondary py-3">
+    <h2 class="text-center">Subscribe To Our Newsletter</h2>
+    <p class="text-center">Hey...customer<br> enjoy our features with premium subscription</p>
+    <div class="wrapper">
+        <li><a href="{{ url_for('home', subscribe='true') }}" class="subscribe-btn">Subscribe</a></li>
+    </div>
+</section>
+
+<footer class="professional-footer">
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>NEO-LEDGER X</h3>
+            <p>Your trusted partner in financial technology solutions. We deliver innovative digital strategies and
+                analytics for modern businesses.</p>
+            <div class="footer-social">
+                <a href="#" aria-label="Twitter">
+                    <img src="{{ url_for('static', filename='image/youtube.png') }}" target="_blank" aria-label="youtube">
+                </a>
+                <a href="#" aria-label="Facebook">
+                    <img src="{{ url_for('static', filename='image/facebook.png') }}" target="_blank" aria-label="facebook">
+                </a>
+                <a href="#" aria-label="Instagram">
+                    <img src="{{ url_for('static', filename='image/insta.png') }}" target="_blank" aria-label="Instagram">
+                </a>
+                <a href="#" aria-label="LinkedIn">
+                    <img src="{{ url_for('static', filename='image/linkedin.png') }}" target="_blank" aria-label="Linkedin">
+                </a>
+            </div>
+        </div>
+
+        <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#teams">Our Team</a></li>
+                <li><a href="/accounts">Account</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h4>Our Services</h4>
+            <ul class="footer-links">
+                <li><a href="#">Financial Services</a></li>
+                <li><a href="#">Investment Banking</a></li>
+                <li><a href="#">Online Transactions</a></li>
+                <li><a href="#">Government Schemes</a></li>
+                <li><a href="#">Customer Support</a></li>
+            </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="footer-section">
+            <h4>Contact Information</h4>
+            <div class="footer-contact">
+                <div class="contact-item">
+                    <i class="bx bxs-map"></i>
+                    <span>KLEIT Hubli</span>
+                </div>
+                <div class="contact-item">
+                    <i class="bx bxs-phone"></i>
+                    <span>+91-99861-92797</span>
+                </div>
+                <div class="contact-item">
+                    <i class="bx bxs-envelope"></i>
+                    <span>info@neoledgerx.com</span>
+                </div>
+                <div class="contact-item">
+                    <i class="bx bxs-time"></i>
+                    <span>Mon - Sat: 8:00 - 7:00</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="footer-bottom-content">
+            <p>&copy; 2025 NEO-LEDGER X. All Rights Reserved.</p>
+            <div class="footer-bottom-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Disclaimer</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Footer Styles -->
+<style>
+    .professional-footer {
+        background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+        color: #ffffff;
+        padding: 60px 0 0;
+        margin-top: 50px;
+    }
+
+    .footer-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 40px;
+    }
+
+    .footer-section h3 {
+        color: #4a90e2;
+        font-size: 24px;
+        margin-bottom: 20px;
+        font-weight: 700;
+    }
+
+    .footer-section h4 {
+        color: #ffffff;
+        font-size: 18px;
+        margin-bottom: 20px;
+        font-weight: 600;
+        border-bottom: 2px solid #4a90e2;
+        padding-bottom: 8px;
+        display: inline-block;
+    }
+
+    .footer-section p {
+        color: #cccccc;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+
+    .footer-links {
+        list-style: none;
+        padding: 0;
+    }
+
+    .footer-links li {
+        margin-bottom: 10px;
+    }
+
+    .footer-links a {
+        color: #cccccc;
+        text-decoration: none;
+        transition: color 0.3s ease;
+        font-size: 14px;
+    }
+
+    .footer-links a:hover {
+        color: #4a90e2;
+        padding-left: 5px;
+    }
+
+    .footer-social {
+        display: flex;
+        gap: 15px;
+        margin-top: 20px;
+    }
+
+    .footer-social a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        background: #0A2940;
+        color: white;
+        border-radius: 50%;
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
+
+    .footer-social a:hover {
+        background: #357abd;
+        transform: translateY(-3px);
+    }
+
+    .footer-contact {
+        space-y: 15px;
+    }
+
+    .contact-item {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 15px;
+        color: #cccccc;
+    }
+
+    .contact-item i {
+        color: #4a90e2;
+        font-size: 18px;
+        min-width: 20px;
+    }
+
+    .footer-bottom {
+        background: #111111;
+        margin-top: 40px;
+        padding: 25px 0;
+        border-top: 1px solid #333333;
+    }
+
+    .footer-bottom-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .footer-bottom p {
+        color: #cccccc;
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .footer-bottom-links {
+        display: flex;
+        gap: 25px;
+    }
+
+    .footer-bottom-links a {
+        color: #cccccc;
+        text-decoration: none;
+        font-size: 14px;
+        transition: color 0.3s ease;
+    }
+
+    .footer-bottom-links a:hover {
+        color: #4a90e2;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        .footer-container {
+            grid-template-columns: 1fr;
+            gap: 30px;
+            padding: 0 15px;
+        }
+
+        .professional-footer {
+            padding: 40px 0 0;
+        }
+
+        .footer-bottom-content {
+            flex-direction: column;
+            text-align: center;
+            gap: 15px;
+        }
+
+        .footer-bottom-links {
+            justify-content: center;
+            gap: 20px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .footer-social {
+            justify-content: center;
+        }
+
+        .footer-bottom-links {
+            flex-direction: column;
+            gap: 10px;
+        }
+    }
+</style>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<!--voice command starts here-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+<script>
+    if (annyang) {
+        const commands = {
+            'scroll down': () => {
+                window.scrollBy({ top: window.innerHeight, behavior: 'smooth' });
+            },
+            'scroll up': () => {
+                window.scrollBy({ top: -window.innerHeight, behavior: 'smooth' });
+            },
+            'go to top': () => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            },
+            'go to bottom': () => {
+                window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+            },
+            'write username *tag': (tag) => {
+                let uname = document.getElementById("username");
+                if (uname) uname.value = tag;
+            },
+            'write email *tag': (tag) => {
+                let emailadd = document.getElementById("email");
+                if (emailadd) emailadd.value = tag.replace(/\s+/g, '');
+            },
+            'write password *tag': (tag) => {
+                let pass = document.getElementById("password");
+                if (pass) pass.value = tag;
+            },
+            'write video *tag': (tag) => {
+                let cface = document.getElementById("video");
+                if (cface) cface.value = tag;
+            },
+            'night mode': () => {
+                document.body.style.backgroundColor = '#000';
+                document.body.style.color = '#fff';
+            },
+            'day mode': () => {
+                document.body.style.backgroundColor = '#fff';
+                document.body.style.color = '#000';
+            }
+        };
+        annyang.addCommands(commands);
+        annyang.setLanguage('en-IN');
+        annyang.start({ autoRestart: true, continuous: true });
+        console.log("Voice commands ready");
+    } else {
+        alert("Annyang is not supported in this browser.");
+    }
+</script>
+
+</body>
+
+</html>
